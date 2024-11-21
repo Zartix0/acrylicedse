@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-        await fetch('http://bot.poolparty.me:4040/api/telegram_info', {
+        await fetch('https://bot.poolparty.me/telegram_info', {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
